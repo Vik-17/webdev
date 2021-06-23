@@ -285,3 +285,53 @@ ul {
   background: #00afdb;
   cursor: pointer;
 }
+
+.download {
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 180px;
+}
+
+.download__title {
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #373737;
+  margin-bottom: 20px;
+}
+
+.download__text {
+  margin-top: 0;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  max-width: 480px;
+  color: #4e4e4e;
+  margin-bottom: 30px;
+}
+.download__btn {
+  display: flex;
+  width: 402px;
+  justify-content: space-between;
+}
+.button__download {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.button__text {
+  padding-right: 18px;
+  padding-left: 18px;
+}
+
+.buttom__img {
+  background: #009cc2;
+  padding: 13px 20px;
+}
