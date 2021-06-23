@@ -22,6 +22,11 @@ ul {
 }
 
 .wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wrapper__header {
   background: url(./assets/bg-image.jpg);
   height: 100%;
   background-repeat: no-repeat;
@@ -145,4 +150,138 @@ ul {
 }
 .rappresent__img {
   max-width: 407px;
+}
+
+.community {
+  background: #f5f6f7;
+  padding-top: 82px;
+  padding-bottom: 140px;
+  max-width: 100%;
+  overflow: hidden;
+  margin-bottom: 120px;
+}
+.community__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.community__left {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 298px;
+  margin-right: 139px;
+}
+.user {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.community__title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+
+  color: #373737;
+}
+
+.community__desc {
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #4e4e4e;
+}
+
+.community__slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.slider__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 83px;
+  margin-bottom: 20px;
+}
+
+.nav__btn {
+  cursor: pointer;
+}
+
+.slider__items {
+  display: flex;
+}
+.slider__item {
+  margin-right: 30px;
+}
+.item__slide {
+  width: 407px;
+  height: 244px;
+  object-fit: cover;
+}
+.item__slide-next {
+  width: 407px;
+  height: 244px;
+  margin-right: 0;
+  object-fit: cover;
+  overflow: hidden;
+}
+.slider__item-next {
+  margin-right: 0;
+}
+.signup {
+  height: 524px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./assets/pexels-christina-morillo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.forms__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.form {
+  position: relative;
+}
+.form__input {
+  width: 406px;
+  height: 46px;
+  padding-left: 24px;
+  border: none;
+  font-size: 14px;
+  line-height: 140%;
+  color: #373737;
+}
+.form__btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 66px;
+  height: 100%;
+  border: none;
+  background: #00afdb;
+  cursor: pointer;
 }
