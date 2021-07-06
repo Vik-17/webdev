@@ -335,3 +335,48 @@ ul {
   background: #009cc2;
   padding: 13px 20px;
 }
+
+.footer {
+  background: #000000;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer__nav {
+  padding: 0;
+}
+.footer__list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.footer__item {
+  display: block;
+  font-size: 14px;
+  line-height: 140%;
+  color: #818181;
+}
+.footer__link {
+  margin-right: 20px;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+
+  color: #ffffff;
+}
+.footer__item:last-child {
+  margin-right: 0;
+}
+.footer__link--active::after {
+  margin-left: 20px;
+  content: "";
+  border: 1px solid #4e4e4e;
+  transform: rotate(-90deg);
+}
+.logo__footer {
+  margin-left: -90px;
+}
